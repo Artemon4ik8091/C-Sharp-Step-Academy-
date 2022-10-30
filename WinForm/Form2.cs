@@ -41,5 +41,10 @@ namespace WinForm
         {
             this.DialogResult = DialogResult.OK;
         }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -1,4 +1,4 @@
-﻿namespace WinForm
+﻿namespace HW_30._10._22
 {
     partial class Form2
     {
@@ -28,56 +28,36 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lb_outText = new System.Windows.Forms.Label();
-            this.lb_DRText = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // lb_outText
+            // label1
             // 
-            this.lb_outText.AutoSize = true;
-            this.lb_outText.Location = new System.Drawing.Point(12, 9);
-            this.lb_outText.Name = "lb_outText";
-            this.lb_outText.Size = new System.Drawing.Size(38, 15);
-            this.lb_outText.TabIndex = 0;
-            this.lb_outText.Text = "label1";
-            // 
-            // lb_DRText
-            // 
-            this.lb_DRText.AutoSize = true;
-            this.lb_DRText.Location = new System.Drawing.Point(12, 36);
-            this.lb_DRText.Name = "lb_DRText";
-            this.lb_DRText.Size = new System.Drawing.Size(38, 15);
-            this.lb_DRText.TabIndex = 1;
-            this.lb_DRText.Text = "label1";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(38, 15);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "label1";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(229, 111);
+            this.button1.Location = new System.Drawing.Point(317, 215);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 2;
+            this.button1.TabIndex = 1;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(12, 82);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(280, 23);
-            this.textBox1.TabIndex = 3;
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(307, 143);
-            this.Controls.Add(this.textBox1);
+            this.ClientSize = new System.Drawing.Size(404, 250);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.lb_DRText);
-            this.Controls.Add(this.lb_outText);
+            this.Controls.Add(this.label1);
             this.Name = "Form2";
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.Form2_Load);
@@ -88,9 +68,7 @@
 
         #endregion
 
-        private Label lb_outText;
-        private Label lb_DRText;
+        private Label label1;
         private Button button1;
-        private TextBox textBox1;
     }
 }
