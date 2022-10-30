@@ -39,22 +39,24 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(216, 30);
             this.label1.TabIndex = 0;
-            this.label1.Text = "ФИО: Межинский Артём Дмитриевич\r\nВозраст: 15 лет.";
+            this.label1.Text = "ФИО: Межинский Артём Дмитриевич\r\nВозраст: 15 лет.\r\n";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(309, 179);
+            this.button1.Location = new System.Drawing.Point(164, 94);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 1;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(396, 214);
+            this.ClientSize = new System.Drawing.Size(251, 129);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Name = "Form1";

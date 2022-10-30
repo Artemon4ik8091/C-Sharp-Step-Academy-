@@ -24,6 +24,12 @@ namespace HW_30._10._22
 
         private void button1_Click(object sender, EventArgs e)
         {
+            Form3 f3 = new Form3();
+            f3.ShowDialog();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
 
         }
     }
