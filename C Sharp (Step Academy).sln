@@ -5,7 +5,9 @@ VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinForm", "WinForm\WinForm.csproj", "{19ABE9E5-7056-400A-AC1B-3E18B2398E3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW 30.10.22", "HW 30.10.22\HW 30.10.22.csproj", "{10F8821F-90F0-4248-AA6D-06CA697AD148}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW 30.10.22", "HW 30.10.22\HW 30.10.22.csproj", "{10F8821F-90F0-4248-AA6D-06CA697AD148}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinForm2", "WinForm2\WinForm2.csproj", "{C1CCCC48-C056-4381-80E8-7B44C0623F60}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{10F8821F-90F0-4248-AA6D-06CA697AD148}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10F8821F-90F0-4248-AA6D-06CA697AD148}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10F8821F-90F0-4248-AA6D-06CA697AD148}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1CCCC48-C056-4381-80E8-7B44C0623F60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1CCCC48-C056-4381-80E8-7B44C0623F60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1CCCC48-C056-4381-80E8-7B44C0623F60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1CCCC48-C056-4381-80E8-7B44C0623F60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
